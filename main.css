@@ -82,3 +82,9 @@ input[type=password], select{
 h1{
     font-family: "Goudy Bookletter 1911",  sans-serif;
 }
+
+.images{
+    border-radius: 100%;
+    border-color: lightgray;
+    padding-top: 20px;
+}
