@@ -1,0 +1,81 @@
+nav{
+    background-color: lightblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    color: blue;
+    margin-right: 20px;
+}
+
+nav ul{
+    text-align: right;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+input[type=text], select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+#formContainer{
+    width:40%;
+    float: center;
+    position: static;
+    border: 3px black;
+    align-self: center;
+    
+}
+
+div{
+    display:block;
+    text-align: center;
+}
+.form{
+  background-color: white;
+  text-align: left;
+  margin: 20 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+
+}
+
+form{
+    margin: 0 center;
+}
