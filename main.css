@@ -22,6 +22,8 @@ body{
     background-color: lightskyblue;
 }
 
+/* MY WORK BELOW THIS LINE........*/
+
 input[type=text], select{
     width:100%;
     padding: 12px 20px;
@@ -43,39 +45,40 @@ input[type=password], select{
 }
 
 .button{
+    width:100%;
     background-color: blue;
     color: white;
-    padding: 15px 15px;
-    border: none;
-    border-radius: 20px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     text-align: center;
     display: inline-block;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 #formContainer{
     width:40%;
-    float: center;
-    position: static;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    margin-top: -25%;
+    position: absolute;
     border: 3px black;
-    align-self: center;
-    
 }
 
-div{
-    display:block;
-    text-align: center;
-}
 .form{
   background-color: white;
   text-align: left;
   margin: 20 auto;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   border-radius: 20px;
+  border-style: outset;
 
 }
 
-form{
-    margin: 0 center;
+h1{
+    font-family: "Goudy Bookletter 1911",  sans-serif;
 }
