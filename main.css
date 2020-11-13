@@ -78,7 +78,7 @@ input[type=password], select{
 
 .form{
   background-color: white;
-  text-align: left;
+  /* text-align: left; */
   margin: 20 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -98,5 +98,16 @@ h1{
     border-color: lightgray;
     margin-top: 10px;
     margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
     size: 20px 20px;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid red; */
+    /* text-align: center; */
 }
